@@ -39,6 +39,8 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
                             <mainClass>com.crawler.test.htmlunit_test</mainClass>
                         </manifest>
                     </archive>
