@@ -18,7 +18,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Run Java Application
-      run: java -jar target/Git-testing-1.0-SNAPSHOT.jar
+      run: java -jar target/Git-testing-jar-with-dependencies.jar
     - name: Commit files
       run: |
          git config --local user.email "sample@gmail.com"
